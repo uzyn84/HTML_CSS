@@ -1,0 +1,131 @@
+div.myform label {
+    display: block;
+    width: 20vw;
+    min-width: 5cm;
+    
+    float: left; 
+    
+}
+
+div.myform input {
+    display: block;
+}
+
+div.myform input[name="email1"] {
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("")
+}
+
+div.myform input[name="email2"] {
+    background-color: lightsalmon;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: .1em;
+}
+
+div.myform input[name="imie"] {
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    border-radius: 8px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+div.myform input[name="nazw"] {
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+a[href^="http://"] {
+   background-color: red;
+}
+
+a[href^="mailto"]:before {
+    content: "poczta: ";
+    background-color: gray;
+}
+
+a[href*="pudelek"] {
+    visibility: hidden;
+}
+
+a[href^="https://"] {
+    background-color: red; 
+}
+
+div.myform input[name="text"] {
+    background-color: lightpink;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    border-radius: 8px;
+  
+    
+}
+
+
+div.myform input[name="password"] {
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+div.myform input[name="date"] {
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    border-radius: 8px;
+    width: 170px;
+    
+}
+
+div.myform input[name="email"] {
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("")
+}
+
+div.myform input[name="button"] {
+    background-color: hotpink;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: .3em;
+    text-align: center;
+    font-family: sans-serif;
+    width: 180px;
+}
